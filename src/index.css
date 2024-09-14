@@ -4,3 +4,21 @@ body {
   margin: none;
   font-family: Montserrat, sans-serif;
 }
+
+p{
+  font-size: 20px;
+  font-weight: 200;
+  color: #faf5e4;
+}
+
+h1{
+  font-size: 63px;
+  font-weight: 400;
+  color: #faf5e4;
+}
+
+h2{
+  font-size: 35px;
+  font-weight: 300;
+  color: #f8b400;
+}

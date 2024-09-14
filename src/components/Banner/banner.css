@@ -15,13 +15,7 @@
     font-family: Cormorant, serif;
 }
 
-p{
+.banner-p{
     font-size: 18px;
     color: #f8b400;
-}
-
-h1{
-    font-size: 63px;
-    font-weight: 400;
-    color: #faf5e4
 }

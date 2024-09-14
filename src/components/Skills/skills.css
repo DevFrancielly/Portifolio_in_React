@@ -1,0 +1,19 @@
+.skills-container{
+    padding-top: 100px;
+    padding-bottom: 200px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skills{
+    display: flex;
+    padding-top: 50px;
+    gap: 50px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+}
