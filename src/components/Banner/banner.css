@@ -1,0 +1,27 @@
+.banner-container {
+    background: linear-gradient(16.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 200.1%);
+    text-align: center;
+    height: 100vh;
+}
+
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.destac{
+    font-family: Cormorant, serif;
+}
+
+p{
+    font-size: 18px;
+    color: #f8b400;
+}
+
+h1{
+    font-size: 63px;
+    font-weight: 400;
+    color: #faf5e4
+}

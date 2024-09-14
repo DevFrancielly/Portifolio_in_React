@@ -1,0 +1,22 @@
+.description-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 80px;
+    padding: 180px;
+}
+
+img{
+    width: 900px;
+    height: 550px;
+    filter: drop-shadow(0 0 1rem #004445);
+    box-shadow: 1px 1px 2rem #004445;
+}
+
+h2{
+    color: #f8b400;
+}
+
+.description-p{
+    color: #faf5e4;
+}
