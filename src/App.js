@@ -1,5 +1,6 @@
 import Banner from "./components/Banner";
 import Description from "./components/Description";
+import Projects from "./components/Projectss";
 import Skills from "./components/Skills";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Banner/>
       <Description/>
       <Skills/>
+      <Projects/>
     </div>
   );
 };
