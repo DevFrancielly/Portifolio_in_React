@@ -11,4 +11,5 @@
     height: 550px;
     filter: drop-shadow(0 0 1rem #004445);
     box-shadow: 1px 1px 2rem #004445;
+    border-radius: 15px;
 }
