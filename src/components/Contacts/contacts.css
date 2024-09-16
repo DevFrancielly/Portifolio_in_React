@@ -1,0 +1,19 @@
+.contacts-container{
+    padding-top: 100px;
+    padding-bottom: 300px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contacts{
+    display: flex;
+    padding-top: 50px;
+    gap: 80px;
+}
+
+.contacts-img {
+    height: 70px;
+    width: 70px;
+}
