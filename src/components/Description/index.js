@@ -7,7 +7,8 @@ const Description = () => {
             <img className='myPhoto' src={MyPhoto} alt='Minha foto'/>
             <div>
                 <h2>Sobre Mim</h2>
-                <p>Lorem ipsum dolor sit amet. Rem molestiae nemo nam consequatur obcaecati ut similique veniam non exercitationem officia eum recusandae totam. Eos autem sunt non minus necessitatibus qui nihil harum eum quidem soluta ut animi nihil in adipisci blanditiis et maiores officiis. Aut atque iusto sit voluptatibus dolorem et deleniti iste. Sed nisi nulla eos numquam aliquam id repellendus galisum qui autem quia? Cum ratione similique ut earum necessitatibus sed cupiditate harum ut modi consequatur vel quod enim sed internos quis.</p>
+                <p>Sou uma desenvolvedora de software em transição de carreira, apaixonada por tecnologia e por criar interfaces intuitivas e funcionais. Após uma trajetória em [área anterior], decidi seguir minha paixão pela programação. Tenho me especializado em desenvolvimento front-end, onde posso unir criatividade e lógica para entregar soluções voltadas para a experiência do usuário.
+                Minha jornada de aprendizado é contínua, com foco em criar aplicações web responsivas e de alta performance, sempre atenta às melhores práticas e tendências do desenvolvimento de interfaces.</p>
             </div>
         </div>
     )
