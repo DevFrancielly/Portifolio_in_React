@@ -1,6 +1,7 @@
 import Banner from "./components/Banner";
 import Contacts from "./components/Contacts";
 import Description from "./components/Description";
+import Footer from "./components/Footer";
 import Projects from "./components/Projectss";
 import Skills from "./components/Skills";
 
@@ -13,6 +14,7 @@ function App() {
       <Projects/>
       <Skills/>
       <Contacts/>
+      <Footer/>
     </div>
   );
 };
