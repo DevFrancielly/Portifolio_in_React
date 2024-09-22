@@ -13,7 +13,20 @@
     gap: 50px;
 }
 
+.card img{
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #2c786c;
+}
+
+.card footer{
+    background-color: #f8b400;
+    border-radius: 10px;
+    padding: 1px;
+}
+
 img {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
 }
