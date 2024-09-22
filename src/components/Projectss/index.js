@@ -1,7 +1,7 @@
 import './projects.css';
 import DigitalClock from '../../img/project-digital-clock.png';
 import PaletColors from '../../img/project-Palet-colors.png';
-import ToDo from '../../img/project-ToDo.png';
+// import ToDo from '../../img/project-ToDo.png';
 import Calculator from '../../img/project-compound-interest-calculator.png'
 
 const Projects = () => {
@@ -15,9 +15,9 @@ const Projects = () => {
                 <div className='projects-card'>
                     <img className='projects-img' src={PaletColors} alt='Imagem do projeto de um gerador de pletas de cores com 5 cores diferentes'/>
                 </div>
-                <div className='projects-card'>
+                {/* <div className='projects-card'>
                     <img className='projects-img' src={ToDo} alt='Imagem do projeto de um qaudro ToDo com varias tonalidades de verdes'/>
-                </div>
+                </div> */}
                 <div className='projects-card'>
                     <img className='projects-img' src={Calculator} alt='Imagem do projeto de uma calculadora de juros compostos'/>
                 </div>

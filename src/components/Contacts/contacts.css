@@ -14,11 +14,12 @@
     gap: 80px;
 }
 
-    .contacts-card{
-        padding: 20px;
-        background: #2c786c;
-        border-radius: 60px;
-    }
+.contacts-card{
+    padding: 20px;
+    background: #2c786c;
+    box-shadow: 1px 1px 1rem #004445;
+    border-radius: 60px;
+}
 
 .contacts-img {
     height: 50px;
