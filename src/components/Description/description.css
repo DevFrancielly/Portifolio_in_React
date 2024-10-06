@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    background: linear-gradient(2.6deg, rgb(0, 0, 0) 11.5%, rgb(11, 132, 145) 200.1%);
+    background: linear-gradient(179.80deg, rgb(0, 68, 69) 0%, rgb(0, 0, 0) 53%);
     gap: 130px;
     padding: 180px;
 }
@@ -12,4 +12,9 @@
     height: 550px;
     box-shadow: 1px 1px 1rem #004445;
     border-radius: 15px;
+}
+
+div h2{
+    font-family: Afacad Flux, serif;
+    font-size: 40px;
 }
