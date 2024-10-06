@@ -1,5 +1,5 @@
 .banner-container {
-    background: linear-gradient(177.9deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 200.1%);
+    background: linear-gradient(177.9deg, rgb(0, 0, 0) 28%, rgb(0, 68, 69) 100%);
     text-align: center;
     height: 100vh;
 }
@@ -12,7 +12,16 @@
 }
 
 .destac{
-    font-family: Cormorant, serif;
+    font-size: 60px;
+    font-family: Afacad Flux, serif;
+}
+
+.banner-p{
+    gap: 0;
+}
+
+h1{
+    font-size: 30px;
 }
 
 .banner-p{
