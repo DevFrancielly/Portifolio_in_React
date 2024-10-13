@@ -1,5 +1,5 @@
 footer{
-    background: #012d2e;
+    background: #2C786C;
     padding-top: 15px;
     padding-bottom: 15px;
     display: grid;
@@ -9,5 +9,5 @@ footer{
 }
 
 footer p {
-    font-size: 15px;
+    font-size: 17px;
 }

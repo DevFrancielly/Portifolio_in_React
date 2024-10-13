@@ -1,5 +1,5 @@
 .contacts-container{
-    background: linear-gradient(177.9deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 200.1%);
+    background: linear-gradient(177.9deg, rgb(0, 0, 0) 40%, rgb(0, 68, 69) 100%);
     padding-top: 100px;
     padding-bottom: 250px;
     display: grid;
@@ -10,18 +10,37 @@
 
 .contacts{
     display: flex;
-    padding-top: 50px;
+    padding-top: 100px;
     gap: 80px;
 }
 
 .contacts-card{
-    padding: 20px;
-    background: #2c786c;
-    box-shadow: 1px 1px 1rem #004445;
-    border-radius: 60px;
+    padding: 30px;
+    background: #2C786C;
+    border-radius: 80px;
 }
 
 .contacts-img {
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
+}
+
+.contacts-container h2::before,
+.contacts-container h2::after{
+    content: "";    
+    position: absolute;
+    top: 91.8em;
+    width: 26px;
+    height: 1.5px;
+    background-color: #2c786c;
+}
+
+.contacts-container h2::before{
+    left: inherit;
+    right: 21.4em;
+}
+
+.contacts-container h2::after{
+    left: initial;
+    right: 15.9em; 
 }

@@ -17,14 +17,34 @@
 }
 
 .banner-p{
+    position: relative;
+    display: inline-block;
+    color: #f8b400;
+    font-size: 18px;
+    margin: 8px;
     gap: 0;
+}
+
+.banner-p::before,
+.banner-p::after{
+    content: "";
+    position: absolute;
+    top: 128px;
+    width: 40px;
+    height: 1.5px;
+    background-color: #F8B400;
+}
+
+.banner-p::before{
+    left: inherit;
+    right: 170px;
+}
+
+.banner-p::after{
+    left: initial;
+    right: -78px;  
 }
 
 h1{
     font-size: 30px;
-}
-
-.banner-p{
-    font-size: 18px;
-    color: #f8b400;
 }
