@@ -11,3 +11,15 @@ footer{
 footer p {
     font-size: 17px;
 }
+
+@media screen and (max-width: 880px){
+    footer{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    footer p {
+        font-size: 12px;
+        font-weight: 300;
+    }
+}

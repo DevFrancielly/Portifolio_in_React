@@ -49,10 +49,16 @@ img {
 } */
 
 @media screen and (max-width: 880px){
+    .skills-container{
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+
     .skills{
         display: grid;
         justify-content: space-between;
         gap: 15px;
+        padding-top: 60px;
     }
 
     img {

@@ -50,6 +50,7 @@
     .certifications-container{
         padding-top: 0;
         gap: 0;
+        padding-bottom: 40px;
     }
 
     .certifications,

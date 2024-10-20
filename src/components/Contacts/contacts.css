@@ -25,7 +25,7 @@
     width: 70px;
 }
 
-.contacts-container h2::before,
+/* .contacts-container h2::before,
 .contacts-container h2::after{
     content: "";    
     position: absolute;
@@ -43,4 +43,40 @@
 .contacts-container h2::after{
     left: initial;
     right: 15.9em; 
+} */
+
+@media screen and (max-width: 880px){
+    .contacts-container{
+        padding-top: 0;
+        padding-bottom: 70px;
+    }
+
+    .contacts{
+        display: grid;
+        justify-content: space-between;
+        gap: 15px;
+        padding-top: 40px;
+    }
+
+    .contacts-img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .contacts-card {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 880px){
+    .contacts-img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .contacts-card {
+        height: 20px;
+        width: 20px;
+    }
 }
