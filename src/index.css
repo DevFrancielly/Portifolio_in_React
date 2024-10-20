@@ -25,3 +25,9 @@ h2{
   color: #f8b400;
   margin: 0;
 }
+
+@media screen and (min-width: 800px){
+  body {
+    height: 100vh
+  }
+}
