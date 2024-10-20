@@ -8,7 +8,9 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-70%, -70%);
+    padding: 0;
+    margin: 0;
 }
 
 .destac{
@@ -49,26 +51,21 @@ h1{
     font-size: 30px;
 }
 /* Config tablet*/
-@media screen and (max-width: 768px){
-    
-}
-
-/* Config mobile*/
-@media screen and (max-width: 320px){
+@media screen and (max-width: 880px){
     .banner-p{
-        font-size: 13px;
+        font-size: 20px;
         padding-bottom: 30px;
     }
 
     .destac{
         font-weight: 100;
         padding-bottom: 5px;
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .destac-p{
         font-weight: 100;
-        font-size: 13px;
+        font-size: 20px;
     }
 
     .banner-p::before{
@@ -80,5 +77,16 @@ h1{
         right: 40%;
         margin-top: 60%;
     }
+}
 
+/* Config mobile*/
+@media screen and (max-width: 300px){
+    .destac{
+        font-size: 15px;
+    }
+
+    .destac-p,
+    .banner-p{
+        font-size: 10px;
+    }
 }
