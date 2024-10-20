@@ -80,7 +80,7 @@ h1{
 /* Config mobile*/
 @media screen and (max-width: 300px){
     .destac{
-        font-size: 13px;
+        font-size: 10px;
     }
 
     .destac-p,
