@@ -51,19 +51,19 @@ h1{
 /* Config tablet*/
 @media screen and (max-width: 880px){
     .banner-p{
-        font-size: 20px;
+        font-size: 15px;
         padding-bottom: 30px;
     }
 
     .destac{
-        font-weight: 100;
+        font-weight: 400;
         padding-bottom: 5px;
-        font-size: 20px;
+        font-size: 20.5px;
     }
 
     .destac-p{
         font-weight: 100;
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .banner-p::before{

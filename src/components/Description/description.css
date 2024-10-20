@@ -44,3 +44,32 @@ div h2{
     color: #004445;
     font-weight: 600;
 }
+
+@media screen and (max-width: 880px){
+    .description-container{
+        display: flex;
+        flex-direction: column; 
+        padding: 8%;
+        gap: 20px;
+    }
+
+    .myPhoto{
+        width: 115px;
+        height: 185px;
+        border-radius: 800px;
+    }
+
+    div h2{
+        font-size: 25px;
+        font-weight: 200;
+    }
+
+    .button{
+        width: 60px;
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 300px){
+
+}

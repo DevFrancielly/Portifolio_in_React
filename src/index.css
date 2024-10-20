@@ -25,3 +25,26 @@ h2{
   color: #f8b400;
   margin: 0;
 }
+
+@media screen and (max-width: 880px){
+  p{
+    font-size: 11px;
+    line-height: 1.5;
+  }
+
+  h2{
+    font-size: 25px;
+    font-weight: 200;
+  }
+}
+
+@media screen and (max-width: 300px){
+  p{
+    font-size: 9px;
+    line-height: 1.5;
+  }
+
+  h2{
+    font-size: 12px;
+  }
+}
