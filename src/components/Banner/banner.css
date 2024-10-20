@@ -21,7 +21,7 @@
     display: inline-block;
     color: #f8b400;
     font-size: 18px;
-    margin: 8px;
+    margin: 2%;
     gap: 0;
 }
 
@@ -48,23 +48,27 @@
 h1{
     font-size: 30px;
 }
+/* Config tablet*/
+@media screen and (max-width: 768px){
+    
+}
 
 /* Config mobile*/
-@media screen and (max-width: 730px){
+@media screen and (max-width: 320px){
     .banner-p{
-        font-size: 15px;
+        font-size: 13px;
         padding-bottom: 30px;
     }
 
     .destac{
         font-weight: 100;
         padding-bottom: 5px;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .destac-p{
         font-weight: 100;
-        font-size: 18px;
+        font-size: 13px;
     }
 
     .banner-p::before{
