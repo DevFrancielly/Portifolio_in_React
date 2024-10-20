@@ -28,7 +28,7 @@ img {
     color: #f8b400;
 }
 
-.skills-container h2::before,
+/* .skills-container h2::before,
 .skills-container h2::after{
     content: "";
     position: absolute;
@@ -46,4 +46,24 @@ img {
 .skills-container h2::after{
     left: initial;
     right: 15.7em; 
+} */
+
+@media screen and (max-width: 880px){
+    .skills{
+        display: grid;
+        justify-content: space-between;
+        gap: 15px;
+    }
+
+    img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .card div{
+        padding: 18px;
+    }
+}
+@media screen and (max-width: 300px){
+
 }
