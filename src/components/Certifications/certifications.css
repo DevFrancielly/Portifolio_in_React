@@ -26,7 +26,7 @@
     font-weight: 400;
 }
 
-.certifications-container h2::before,
+/* .certifications-container h2::before,
 .certifications-container h2::after{
     content: "";
     position: absolute;
@@ -44,4 +44,30 @@
 .certifications-container h2::after{
     left: initial;
     right: 15.4em; 
+} */
+
+@media screen and (max-width: 880px){
+    .certifications-container{
+        padding-top: 0;
+        gap: 0;
+    }
+
+    .certifications,
+    .certifications-card{
+        display: grid;
+        gap: 0;
+    }
+
+    .certifications-card{
+        padding: 10px 20px;
+    }
+
+    .certifications-img{
+        display: none;
+    }
+
+    .certifications-card p{
+        font-size: 9px;
+        font-weight: 300;
+    }
 }
