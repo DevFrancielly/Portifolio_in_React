@@ -7,7 +7,7 @@
     text-align: center;
 }
 
-.projects-container h2::before,
+/* .projects-container h2::before,
 .projects-container h2::after{
     content: "";
     position: absolute;
@@ -25,7 +25,7 @@
 .projects-container h2::after{
     left: initial;
     right: 16em; 
-}
+} */
 
 .projects{
     display: flex;
@@ -80,4 +80,26 @@
     color: #faf5e4;
     font-size: 18px;
     text-align: center;
+}
+
+@media screen and (max-width: 880px){
+    .projects-card{
+        height: 112px;
+        width: 223px;
+    }
+
+    .overlay-text{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .projects-card{
+        height: 90px;
+        width: 201px;
+    }
+
+    .overlay-text{
+        font-size: 9px;
+    }
 }
